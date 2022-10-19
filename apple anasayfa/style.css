@@ -1,0 +1,182 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: rgb(58, 56, 56);
+    display: flex;
+    padding: 12x;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.navbar:hover{
+    opacity: calc(0.4s);
+}
+
+.navbar a{
+    color: rgba(255, 255, 255, 0.856) ;
+    margin: 15px 23px;
+    font-size: 12px;
+    transition: all 0.4s;
+}
+.navbar a:hover{
+    color: white;
+}
+
+.iphone14{
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    
+}
+
+.whitebox{
+    margin-top: 40px;
+    display: inline-block;
+}
+
+
+.bigandbigger{
+    font-size: 35px;
+}
+
+.iphone14 .aa, .iphone14 a{
+    color: rgba(26, 128, 245, 0.986);
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.iphone14 a:hover{
+    text-decoration: underline;
+    
+}
+
+
+.iphone14 img{
+    width: 800px;
+    height: 500px;
+}
+
+.iphone14pro{
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+    background-color: black;
+}
+
+.blackbox{
+    margin-top: 60px;
+    display:inline-block ;
+    
+}
+
+.iphone14pro .aa, .iphone14pro a{
+    color: rgba(26, 128, 245, 0.986);
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.iphone14pro a:hover{
+    text-decoration: underline;
+    
+}
+
+.iphone14pro img{
+    width: 800px;
+    height: 500px;
+    
+}
+
+.watch{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.whitebox{
+    margin-top: 60px;
+    display: inline-block;
+}
+
+
+.whitebox .ultra{
+    color: rgb(223, 130, 23);
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.watch .bigandbigger{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.watch .aa, .watch a{
+    color: rgba(26, 128, 245, 0.986);
+    font-size: 20px;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.watch a:hover{
+    text-decoration: underline;
+    
+}
+
+.grid{
+    background-color: black;
+    text-align: center;
+    display: grid;
+    grid: 150px;
+    display: flex;
+    
+}
+
+.grid .blackbox .watch{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.grid .blackbox .series8{
+    color: rgb(199, 7, 7);
+    font-size: 10px;
+}
+
+.grid .bigandbigger{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.grid .aa, .grid a{
+    color: rgba(26, 128, 245, 0.986);
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 6px;
+}
+
+
+.grid a:hover{
+    text-decoration: underline;
+    
+}
+
